@@ -32,7 +32,7 @@ function Element:New(Idx, Config)
 	Keybind.SetDesc = KeybindFrame.SetDesc
 
 	local KeybindDisplayLabel = New("TextLabel", {
-		FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal),
+		FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
 		Text = Config.Default,
 		TextColor3 = Color3.fromRGB(240, 240, 240),
 		TextSize = 13,
